@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>SocialWrapper.razor</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #c191ff;}
+.s1 { color: #85c46c;}
+.s2 { color: #c9a26d;}
+.s3 { color: #d0d0d0;}
+.s4 { color: #6c95eb;}
+.s5 { color: #bdbdbd;}
+.s6 { color: #ed94c0;}
+.s7 { color: #f0f0f0;}
+.s8 { color: #39cc9b;}
+.s9 { color: #e1bfff;}
+.s10 { color: #d0d0d0;}
+</style>
+</head>
+<body bgcolor="#191a1c">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+SocialWrapper.razor</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;nav </span><span class="s1">class</span><span class="s2">=&quot;navbar navbar-expand justify-content-center navbar-dark mb-4 align-content-center justify-content-xl-center&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;div </span><span class="s1">class</span><span class="s2">=&quot;wrapper-links&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;ul </span><span class="s1">class</span><span class="s2">=&quot;social-navbar navbar-nav &quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;li </span><span class="s1">class</span><span class="s2">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;NavLink </span><span class="s1">class</span><span class="s2">=&quot;nav-link align-content-center justify-content-center&quot; </span><span class="s1">href</span><span class="s2">=&quot;https://www.facebook.com/profile.php?id=61573786767720&quot; </span><span class="s1">Match</span><span class="s2">=&quot;NavLinkMatch.All&quot;</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;img </span><span class="s1">class</span><span class="s2">=&quot;socialLinks&quot; </span><span class="s1">src</span><span class="s2">=&quot;Resources/facebook.png&quot; </span><span class="s1">viewBox</span><span class="s2">=&quot;0 0 100 100&quot; </span><span class="s1">style</span><span class="s2">=&quot;</span><span class="s4">width</span><span class="s5">:</span><span class="s6">30</span><span class="s7">px</span><span class="s5">;</span><span class="s4">height</span><span class="s5">:</span><span class="s6">30</span><span class="s7">px</span><span class="s5">; </span><span class="s4">filter</span><span class="s5">: </span><span class="s8">invert</span><span class="s5">(</span><span class="s6">100</span><span class="s5">%)</span><span class="s2">&quot;</span><span class="s0">/&gt;</span>
+                    <span class="s0">&lt;/NavLink&gt;</span>
+                <span class="s0">&lt;/li&gt;</span>
+
+                <span class="s0">&lt;li </span><span class="s1">class</span><span class="s2">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;NavLink </span><span class="s1">class</span><span class="s2">=&quot;nav-link align-content-center justify-content-center&quot; </span><span class="s1">href</span><span class="s2">=&quot;https://www.instagram.com/onyra.official/&quot;</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;img </span><span class="s1">class</span><span class="s2">=&quot;socialLinks&quot; </span><span class="s1">src</span><span class="s2">=&quot;Resources/instagram.png&quot; </span><span class="s1">viewBox</span><span class="s2">=&quot;0 0 100 100&quot; </span><span class="s1">style</span><span class="s2">=&quot;</span><span class="s4">width</span><span class="s5">:</span><span class="s6">30</span><span class="s7">px</span><span class="s5">;</span><span class="s4">height</span><span class="s5">:</span><span class="s6">30</span><span class="s7">px</span><span class="s5">; </span><span class="s4">filter</span><span class="s5">: </span><span class="s8">invert</span><span class="s5">(</span><span class="s6">100</span><span class="s5">%)</span><span class="s2">&quot;</span><span class="s0">/&gt;</span>
+                    <span class="s0">&lt;/NavLink&gt;</span>
+                <span class="s0">&lt;/li&gt;</span>
+
+                <span class="s0">&lt;li </span><span class="s1">class</span><span class="s2">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;NavLink </span><span class="s1">class</span><span class="s2">=&quot;nav-link align-content-center justify-content-center&quot; </span><span class="s1">href</span><span class="s2">=</span><span class="s9">@(</span><span class="s2">$&quot;https://www.youtube.com/@Onyra-p7q&quot;</span><span class="s9">)</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;img </span><span class="s1">class</span><span class="s2">=&quot;socialLinks&quot; </span><span class="s1">src</span><span class="s2">=&quot;Resources/youtube.png&quot; </span><span class="s1">viewBox</span><span class="s2">=&quot;0 0 100 100&quot; </span><span class="s1">style</span><span class="s2">=&quot;</span><span class="s4">width</span><span class="s5">:</span><span class="s6">35</span><span class="s7">px</span><span class="s5">;</span><span class="s4">height</span><span class="s5">:</span><span class="s6">35</span><span class="s7">px</span><span class="s5">; </span><span class="s4">filter</span><span class="s5">: </span><span class="s8">invert</span><span class="s5">(</span><span class="s6">100</span><span class="s5">%)</span><span class="s2">&quot;</span><span class="s0">/&gt;</span>
+                    <span class="s0">&lt;/NavLink&gt;</span>
+                <span class="s0">&lt;/li&gt;</span>
+                
+                <span class="s0">&lt;li </span><span class="s1">class</span><span class="s2">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;NavLink </span><span class="s1">class</span><span class="s2">=&quot;nav-link align-content-center justify-content-center&quot; </span><span class="s1">href</span><span class="s2">=&quot;https://open.spotify.com/artist/6YqBh0ZJSa8cvB3qb9USHu&quot;</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;img </span><span class="s1">class</span><span class="s2">=&quot;socialLinks&quot; </span><span class="s1">src</span><span class="s2">=&quot;Resources/spotify-logo.png&quot; </span><span class="s1">viewBox</span><span class="s2">=&quot;0 0 100 100&quot; </span><span class="s1">style</span><span class="s2">=&quot;</span><span class="s4">width</span><span class="s5">:</span><span class="s6">35</span><span class="s7">px</span><span class="s5">;</span><span class="s4">height</span><span class="s5">:</span><span class="s6">35</span><span class="s7">px</span><span class="s5">; </span><span class="s4">filter</span><span class="s5">: </span><span class="s8">invert</span><span class="s5">(</span><span class="s6">100</span><span class="s5">%)</span><span class="s2">&quot;</span><span class="s0">/&gt;</span>
+                    <span class="s0">&lt;/NavLink&gt;</span>
+                <span class="s0">&lt;/li&gt;</span>
+
+
+                <span class="s0">&lt;li </span><span class="s1">class</span><span class="s2">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;NavLink </span><span class="s1">class</span><span class="s2">=&quot;nav-link align-content-center justify-content-center&quot; </span><span class="s1">href</span><span class="s2">=&quot;https://onyra.bandcamp.com&quot;</span><span class="s0">&gt;</span>
+                        <span class="s0">&lt;img </span><span class="s1">class</span><span class="s2">=&quot;socialLinks&quot; </span><span class="s1">src</span><span class="s2">=&quot;Resources/bandcamp.png&quot; </span><span class="s1">viewBox</span><span class="s2">=&quot;0 0 100 100&quot; </span><span class="s1">style</span><span class="s2">=&quot;</span><span class="s4">width</span><span class="s5">:</span><span class="s6">40</span><span class="s7">px</span><span class="s5">;</span><span class="s4">height</span><span class="s5">:</span><span class="s6">40</span><span class="s7">px</span><span class="s5">; </span><span class="s4">filter</span><span class="s5">: </span><span class="s8">invert</span><span class="s5">(</span><span class="s6">100</span><span class="s5">%)</span><span class="s2">&quot;</span><span class="s0">/&gt;</span>
+                    <span class="s0">&lt;/NavLink&gt;</span>
+                <span class="s0">&lt;/li&gt;</span>
+                
+            <span class="s0">&lt;/ul&gt;</span>
+            
+    
+        <span class="s0">&lt;/div&gt;</span>
+    
+    
+    
+    
+    
+    
+    
+<span class="s0">&lt;/nav&gt;</span>
+
+<span class="s9">@</span><span class="s4">code </span><span class="s9">{</span>
+    
+<span class="s9">}</span></pre>
+</body>
+</html>

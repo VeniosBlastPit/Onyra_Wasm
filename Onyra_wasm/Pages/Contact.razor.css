@@ -1,0 +1,72 @@
+﻿body {
+    font-family: "montserrat", serif;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.onyra-input {
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    background: rgba(255,255,255,0.1);
+    color: silver;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+.onyra-input:focus {
+    border-color: #666;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.onyra-textarea {
+    padding: 10px;
+    min-height: 190px;
+    resize: none;
+    border: 1px solid rgba(0,0,0,0.2);
+    background: rgba(255,255,255,0.1);
+    color: silver;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+.onyra-textarea:focus {
+    border-color: #666;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.onyra-button {
+    padding: 20px 35px;
+    border: 1px solid silver;
+    background: transparent;
+    color: silver;
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+
+.onyra-button:hover {
+    background: #606060;
+}
+
+.onyra-success {
+    margin-top: 15px;
+    padding: 10px;
+    background: #d4edda;
+    color: #155724;
+}
+
+.onyra-error {
+    margin-top: 15px;
+    padding: 10px;
+    background: rgba(248, 215, 218, 0);
+    color: #721c24;
+}

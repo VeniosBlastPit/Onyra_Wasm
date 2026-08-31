@@ -1,0 +1,80 @@
+body[b-5dzc4obnpc]{
+    background-image: url("Resources/web_bckgrnd.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    z-index: -5;
+    text-align: center;
+    color: lightgray;
+    padding-left: 15px;
+    padding-right: 15px;
+}   
+main[b-5dzc4obnpc]{
+    color: #5a5a5a;
+}
+
+h1[b-5dzc4obnpc]{
+    color: lightgray;
+    text-align: center;
+}
+
+h2[b-5dzc4obnpc]{
+   color: lightgray;
+    padding-top: 10px;
+}
+
+h3[b-5dzc4obnpc]{
+    padding-top: 10px;
+}
+
+p[b-5dzc4obnpc]{
+    color: lightgray;
+    text-align: center;
+}
+
+head[b-5dzc4obnpc]{
+    color: lightgray;
+}
+
+footer[b-5dzc4obnpc]{
+    font-family: "montserrat", serif;
+    color: lightgray;
+    text-align: center;
+}
+
+.flex-wrapper[b-5dzc4obnpc]{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer[b-5dzc4obnpc]{
+    color: lightgray;
+    text-align: center; 
+    margin-top: auto;
+    font-size: 15px
+}
+
+
+
+header[b-5dzc4obnpc]{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.socialLinks[b-5dzc4obnpc]{
+    display: inline-block;
+    filter: invert(100%);
+    color: white;
+    height: 45px;
+    width: 45px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar-expand[b-5dzc4obnpc]{
+    justify-content: center;
+}
+

@@ -1,0 +1,24 @@
+﻿.news-card{
+    background-color: rgba(0, 0, 0, 0) !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    opacity: 0.95;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.onyra-button {
+    padding: 20px 35px;
+    border: 1px solid silver;
+    background: transparent;
+    color: silver;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.onyra-button:hover {
+    background: #606060;
+}

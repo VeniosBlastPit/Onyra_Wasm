@@ -1,0 +1,58 @@
+﻿<nav class="navbar navbar-expand-lg navbar-dark  mb-5 justify-content-xl-center">
+    <div class="container-fluid">
+        <a class="navbar-brand  align-content-center"  href="home"><img src="Resources/onyra_symbol.png" alt="THE LOGO" style="width:100px;height:100px;"></a>
+        <button class="navbar-toggler @NavButtonCssClass" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-label="Toggle navigation" @onclick="ToggleNavMenu" >
+            <a class="navbar-toggler align-content-center" ><img src="Resources/onyra_symbol.png" alt="THE LOGO" style="width:100px;height:100px;"></a>
+        </button>
+        <div class="collapse navbar-collapse align-content-center justify-content-center @NavBarCssClass" id="navbarCollapse" @onclick="ToggleNavMenu">
+            <ul class="navbar navbar-nav ">
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="home" Match="NavLinkMatch.All">
+                        HOME
+                    </NavLink>
+                </li>
+
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="band">
+                        BAND
+                    </NavLink>
+                </li>
+
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="releases">
+                        RELEASES
+                    </NavLink>
+                </li>
+
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="shop">
+                        STORE
+                    </NavLink>
+                </li>
+                
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="contact">
+                        CONTACT
+                    </NavLink>
+                </li>
+
+            </ul>
+
+
+        </div>
+
+
+    </div>
+</nav>
+
+@code {
+    private bool collapseNavMenu = true;
+    private string? NavBarCssClass => collapseNavMenu ? null : "show";
+    private string? NavButtonCssClass => collapseNavMenu ? "collapsed" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

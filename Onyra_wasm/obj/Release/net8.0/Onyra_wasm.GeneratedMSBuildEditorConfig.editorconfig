@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Onyra_wasm
+build_property.RootNamespace = Onyra_wasm
+build_property.ProjectDir = C:\Users\BlastPit\RiderProjects\Onyra_Wasm\Onyra_wasm\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\BlastPit\RiderProjects\Onyra_Wasm\Onyra_wasm
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/Pages/Band.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFuZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/Pages/Releases.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVsZWFzZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/Pages/Shop.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-y37c556htr
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/Shared/ContactLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbnRhY3RMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-a5ywzawkz4
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/Shared/Live.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExpdmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ohkpr0ij9u
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-5dzc4obnpc
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/Shared/Member.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1lbWJlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-rhkb11hsk9
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-o6p19fgep1
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/Shared/News.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5ld3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mb0rp3hpbn
+
+[C:/Users/BlastPit/RiderProjects/Onyra_Wasm/Onyra_wasm/Shared/SocialWrapper.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNvY2lhbFdyYXBwZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-pozw4lfx76

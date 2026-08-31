@@ -1,0 +1,1 @@
+C:\Users\BlastPit\RiderProjects\Onyra_Wasm\Onyra_wasm\bin\Release\net6.0\publish\web.config

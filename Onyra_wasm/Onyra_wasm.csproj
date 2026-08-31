@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+    <PropertyGroup>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.9"/>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.9" PrivateAssets="all"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\Andrew.jpg" />
+      <None Include="wwwroot\Glou.jpg" />
+      <None Include="wwwroot\instagram.png" />
+      <None Include="wwwroot\music.png" />
+      <None Include="wwwroot\onyra_logo.png" />
+      <None Include="wwwroot\onyra_symbol.png" />
+      <None Include="wwwroot\oooooo.jpg" />
+      <None Include="wwwroot\Savvas.jpg" />
+      <None Include="wwwroot\Stelios.jpg" />
+      <None Include="wwwroot\Venios.jpg" />
+      <None Include="wwwroot\web_bckgrnd.png" />
+      <None Include="wwwroot\woober.png" />
+      <None Include="wwwroot\woober_notext.png" />
+      <None Include="wwwroot\youtube.png" />
+    </ItemGroup>
+
+</Project>

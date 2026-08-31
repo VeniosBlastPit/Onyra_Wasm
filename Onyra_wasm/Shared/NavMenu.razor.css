@@ -1,0 +1,86 @@
+﻿.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 0px;
+}
+
+@media screen and (max-width:992px){
+    .navbar-brand img{display:none;}
+    .navbar{flex-direction: column; !important;}
+    .container-fluid{background-image: linear-gradient(180deg, rgb(0 0 0) 90%, #00000000 100%); }
+}
+
+
+
+.navbar-brand{
+    position: relative;
+    display: contents;
+    padding: 10px;
+    justify-content: center;
+    vertical-align: center;
+    left: 50px;
+}
+
+.navbar-dark .navbar-toggler{
+    color: transparent;
+    border-color: transparent;
+}
+
+.nav-item{
+    font-family: "montserrat", serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px; !important;
+    position: relative;
+}
+
+.container-fluid{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(180deg, rgb(0 0 0) 80%, #00000000 100%);
+    padding-top: 0;
+}
+
+
+
+.nav-link{
+    font-family: "montserrat", serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.nav{
+    font-family: "montserrat", serif;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+button{
+    font-family: "montserrat", serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+a, li, ul{
+    font-family: "montserrat", serif;
+    font-size: 20px;
+    align-content: center;
+    justify-content: center;
+    position: relative ;
+}
+
+.navbar-expand{
+    justify-content: center; !important;
+}

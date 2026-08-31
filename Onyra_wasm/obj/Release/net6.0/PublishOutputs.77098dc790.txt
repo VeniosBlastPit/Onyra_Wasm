@@ -1,0 +1,3 @@
+C:\Users\BlastPit\Desktop\onyra-band\appsettings.json
+C:\Users\BlastPit\Desktop\onyra-band\emcc-props.json
+C:\Users\BlastPit\Desktop\onyra-band\web.config

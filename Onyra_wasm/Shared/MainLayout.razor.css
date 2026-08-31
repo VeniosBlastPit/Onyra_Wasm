@@ -1,0 +1,80 @@
+body{
+    background-image: url("Resources/web_bckgrnd.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    z-index: -5;
+    text-align: center;
+    color: lightgray;
+    padding-left: 15px;
+    padding-right: 15px;
+}   
+main{
+    color: #5a5a5a;
+}
+
+h1{
+    color: lightgray;
+    text-align: center;
+}
+
+h2{
+   color: lightgray;
+    padding-top: 10px;
+}
+
+h3{
+    padding-top: 10px;
+}
+
+p{
+    color: lightgray;
+    text-align: center;
+}
+
+head{
+    color: lightgray;
+}
+
+footer{
+    font-family: "montserrat", serif;
+    color: lightgray;
+    text-align: center;
+}
+
+.flex-wrapper{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer{
+    color: lightgray;
+    text-align: center; 
+    margin-top: auto;
+    font-size: 15px
+}
+
+
+
+header{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.socialLinks{
+    display: inline-block;
+    filter: invert(100%);
+    color: white;
+    height: 45px;
+    width: 45px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar-expand{
+    justify-content: center;
+}
+

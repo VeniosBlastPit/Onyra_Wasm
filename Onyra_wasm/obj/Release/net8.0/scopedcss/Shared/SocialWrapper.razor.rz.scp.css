@@ -1,0 +1,31 @@
+.wrapper-links[b-pozw4lfx76]{
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.nav-item[b-pozw4lfx76]{
+    font-family: "montserrat", serif;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+    padding: 10px; !important;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.nav-item:hover[b-pozw4lfx76]{
+    filter: opacity(80%);
+}
+
+.social-navbar[b-pozw4lfx76]{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}

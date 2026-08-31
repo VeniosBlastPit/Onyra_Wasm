@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>NavMenu.razor</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #c191ff;}
+.s1 { color: #85c46c;}
+.s2 { color: #c9a26d;}
+.s3 { color: #d0d0d0;}
+.s4 { color: #6c95eb;}
+.s5 { color: #bdbdbd;}
+.s6 { color: #ed94c0;}
+.s7 { color: #f0f0f0;}
+.s8 { color: #e1bfff;}
+.s9 { color: #d0d0d0;}
+</style>
+</head>
+<body bgcolor="#191a1c">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+NavMenu.razor</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;nav </span><span class="s1">class</span><span class="s2">=&quot;navbar navbar-expand-lg navbar-dark  mb-5 justify-content-xl-center&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;div </span><span class="s1">class</span><span class="s2">=&quot;container-fluid&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;a </span><span class="s1">class</span><span class="s2">=&quot;navbar-brand  align-content-center&quot;  </span><span class="s1">href</span><span class="s2">=&quot;home&quot;</span><span class="s0">&gt;&lt;img </span><span class="s1">src</span><span class="s2">=&quot;onyra_symbol.png&quot; </span><span class="s1">alt</span><span class="s2">=&quot;THE LOGO&quot; </span><span class="s1">style</span><span class="s2">=&quot;</span><span class="s4">width</span><span class="s5">:</span><span class="s6">100</span><span class="s7">px</span><span class="s5">;</span><span class="s4">height</span><span class="s5">:</span><span class="s6">100</span><span class="s7">px</span><span class="s5">;</span><span class="s2">&quot;</span><span class="s0">&gt;&lt;/a&gt;</span>
+        <span class="s0">&lt;button </span><span class="s1">class</span><span class="s2">=&quot;navbar-toggler </span><span class="s8">@</span><span class="s9">NavButtonCssClass</span><span class="s2">&quot; </span><span class="s1">type</span><span class="s2">=&quot;button&quot; </span><span class="s1">data-bs-toggle</span><span class="s2">=&quot;collapse&quot; </span><span class="s1">data-bs-target</span><span class="s2">=&quot;#navbarCollapse&quot;</span>
+                <span class="s1">aria-controls</span><span class="s2">=&quot;navbarCollapse&quot; </span><span class="s1">aria-label</span><span class="s2">=&quot;Toggle navigation&quot; </span><span class="s8">@</span><span class="s1">onclick</span><span class="s2">=&quot;</span><span class="s3">ToggleNavMenu</span><span class="s2">&quot; </span><span class="s0">&gt;</span>
+            <span class="s0">&lt;a </span><span class="s1">class</span><span class="s2">=&quot;navbar-toggler align-content-center&quot; </span><span class="s0">&gt;&lt;img </span><span class="s1">src</span><span class="s2">=&quot;onyra_symbol.png&quot; </span><span class="s1">alt</span><span class="s2">=&quot;THE LOGO&quot; </span><span class="s1">style</span><span class="s2">=&quot;</span><span class="s4">width</span><span class="s5">:</span><span class="s6">100</span><span class="s7">px</span><span class="s5">;</span><span class="s4">height</span><span class="s5">:</span><span class="s6">100</span><span class="s7">px</span><span class="s5">;</span><span class="s2">&quot;</span><span class="s0">&gt;&lt;/a&gt;</span>
+        <span class="s0">&lt;/button&gt;</span>
+        <span class="s0">&lt;div </span><span class="s1">class</span><span class="s2">=&quot;collapse navbar-collapse align-content-center justify-content-center </span><span class="s8">@</span><span class="s9">NavBarCssClass</span><span class="s2">&quot; </span><span class="s1">id</span><span class="s2">=&quot;navbarCollapse&quot; </span><span class="s8">@</span><span class="s1">onclick</span><span class="s2">=&quot;</span><span class="s3">ToggleNavMenu</span><span class="s2">&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;ul </span><span class="s1">class</span><span class="s2">=&quot;navbar navbar-nav &quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;li </span><span class="s1">class</span><span class="s2">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;NavLink </span><span class="s1">class</span><span class="s2">=&quot;nav-link&quot; </span><span class="s1">href</span><span class="s2">=&quot;home&quot; </span><span class="s1">Match</span><span class="s2">=&quot;NavLinkMatch.All&quot;</span><span class="s0">&gt;</span>
+                        <span class="s5">HOME</span>
+                    <span class="s0">&lt;/NavLink&gt;</span>
+                <span class="s0">&lt;/li&gt;</span>
+
+                <span class="s0">&lt;li </span><span class="s1">class</span><span class="s2">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;NavLink </span><span class="s1">class</span><span class="s2">=&quot;nav-link&quot; </span><span class="s1">href</span><span class="s2">=&quot;band&quot;</span><span class="s0">&gt;</span>
+                        <span class="s5">BAND</span>
+                    <span class="s0">&lt;/NavLink&gt;</span>
+                <span class="s0">&lt;/li&gt;</span>
+
+                <span class="s0">&lt;li </span><span class="s1">class</span><span class="s2">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;NavLink </span><span class="s1">class</span><span class="s2">=&quot;nav-link&quot; </span><span class="s1">href</span><span class="s2">=&quot;releases&quot;</span><span class="s0">&gt;</span>
+                        <span class="s5">RELEASES</span>
+                    <span class="s0">&lt;/NavLink&gt;</span>
+                <span class="s0">&lt;/li&gt;</span>
+
+                <span class="s0">&lt;li </span><span class="s1">class</span><span class="s2">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;NavLink </span><span class="s1">class</span><span class="s2">=&quot;nav-link&quot; </span><span class="s1">href</span><span class="s2">=&quot;shop&quot;</span><span class="s0">&gt;</span>
+                        <span class="s5">STORE</span>
+                    <span class="s0">&lt;/NavLink&gt;</span>
+                <span class="s0">&lt;/li&gt;</span>
+                
+                <span class="s0">&lt;li </span><span class="s1">class</span><span class="s2">=&quot;nav-item&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;NavLink </span><span class="s1">class</span><span class="s2">=&quot;nav-link&quot; </span><span class="s1">href</span><span class="s2">=&quot;contact&quot;</span><span class="s0">&gt;</span>
+                        <span class="s5">CONTACT</span>
+                    <span class="s0">&lt;/NavLink&gt;</span>
+                <span class="s0">&lt;/li&gt;</span>
+
+            <span class="s0">&lt;/ul&gt;</span>
+
+
+        <span class="s0">&lt;/div&gt;</span>
+
+
+    <span class="s0">&lt;/div&gt;</span>
+<span class="s0">&lt;/nav&gt;</span>
+
+<span class="s8">@</span><span class="s4">code </span><span class="s8">{</span>
+    <span class="s4">private bool </span><span class="s9">collapseNavMenu </span><span class="s5">= </span><span class="s4">true</span><span class="s5">;</span>
+    <span class="s4">private string</span><span class="s9">? NavBarCssClass =&gt; collapseNavMenu ? </span><span class="s4">null </span><span class="s9">: </span><span class="s2">&quot;show&quot;</span><span class="s5">;</span>
+    <span class="s4">private string</span><span class="s9">? NavButtonCssClass =&gt; collapseNavMenu ? </span><span class="s2">&quot;collapsed&quot; </span><span class="s9">: </span><span class="s4">null</span><span class="s5">;</span>
+
+    <span class="s4">private void </span><span class="s9">ToggleNavMenu</span><span class="s5">()</span>
+    <span class="s5">{</span>
+        <span class="s9">collapseNavMenu </span><span class="s5">= </span><span class="s9">!collapseNavMenu</span><span class="s5">;</span>
+    <span class="s5">}</span>
+<span class="s8">}</span></pre>
+</body>
+</html>

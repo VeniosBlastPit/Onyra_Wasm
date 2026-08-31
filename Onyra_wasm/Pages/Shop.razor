@@ -1,0 +1,105 @@
+﻿@page "/shop"
+
+<PageTitle>Shop</PageTitle>
+
+<h1>OFFICIAL MERCHANDISE</h1>
+
+<div class="container align-content-center">
+    <div class="product-grid align-content-center">
+        @foreach (var product in products)
+        {
+            <a href="@product.Url" class="product-card">
+                <div class="image-container">
+                    <img src="@product.ImageUrl" alt="@product.Name" />
+                </div>
+
+                <div class="product-info">
+                    <h3>@product.Name</h3>
+                    <p>€@product.Price</p>
+                    <p>@product.Free</p>
+                </div>
+            </a>
+        }   
+    </div>
+</div>
+
+<p>Please Note: Clicking any of the products will redirect you to the contact page where you can ask for product availability there.</p>
+
+@code {
+    
+    public class Product
+    {
+        public string Name { get; set; }
+        public string ImageUrl { get; set; }
+        public decimal Price { get; set; }
+        public string Free { get; set; }
+        public string Url { get; set; }
+    }
+
+    List<Product> products = new()
+    {
+        new Product
+        {
+            Name = "LOGO STICKER 10x5cm",
+            Price = 2,
+            ImageUrl = "Resources/sticker_img_card.png",
+            Url = "contact"
+        },
+    };
+}
+
+<!--TODO: SAME ISSUE REGARDING STYLESHEET AS CONTACTS FORM.. TEMPORARY WORKAROUND-->
+
+<style>
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 220px));
+        justify-content: center; 
+        gap: 20px;
+        padding: 40px 20px;
+    }
+
+    .product-card {
+        text-decoration: none;
+        color: white;
+        background: #111;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+        transform: scale(1.05);
+    }
+
+    .image-container {
+        width: 100%;
+        height: 260px;
+        overflow: hidden;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .product-info {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .product-info h3 {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .product-info p {
+        font-weight: bold;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto; 
+    }
+    
+</style>
