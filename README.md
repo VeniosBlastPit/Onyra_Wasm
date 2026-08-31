@@ -2,7 +2,7 @@
 
 The official Onyra website built from scratch using **Blazor WebAssembly**, **C#**, **HTML**, and **CSS**.
 
-The website serves as a main hub for everything ONYRA
+The website serves as a main hub for everything **ONYRA**
 
 ## 🚀 Technologies Used
 
@@ -28,7 +28,7 @@ The website serves as a main hub for everything ONYRA
 ├── Pages/
 │   ├── Home.razor
 │   ├── About.razor
-│   ├── Projects.razor
+│   ├── Releases.razor
 │   └── Contact.razor
 │
 ├── Components/
